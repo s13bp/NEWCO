@@ -218,6 +218,299 @@
         }
 }
     </style>
+    <style>
+        @keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #313131;
+    overflow: hidden;
+}
+
+.background span {
+    width: 11vmin;
+    height: 11vmin;
+    border-radius: 11vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 36;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #E45A84;
+    top: 9%;
+    left: 2%;
+    animation-duration: 50s;
+    animation-delay: -4s;
+    transform-origin: 20vw 0vh;
+    box-shadow: 22vmin 0 3.1446863398613747vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #ff0000;
+    top: 56%;
+    left: 23%;
+    animation-duration: 118s;
+    animation-delay: -132s;
+    transform-origin: -15vw -8vh;
+    box-shadow: -22vmin 0 2.908860002721731vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #b22e42;
+    top: 30%;
+    left: 85%;
+    animation-duration: 129s;
+    animation-delay: -117s;
+    transform-origin: -18vw 19vh;
+    box-shadow: 22vmin 0 2.9756879534173626vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #b22e42;
+    top: 62%;
+    left: 15%;
+    animation-duration: 30s;
+    animation-delay: -60s;
+    transform-origin: -9vw -13vh;
+    box-shadow: -22vmin 0 3.5443684615936357vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #583C87;
+    top: 23%;
+    left: 7%;
+    animation-duration: 33s;
+    animation-delay: -57s;
+    transform-origin: 17vw 16vh;
+    box-shadow: 22vmin 0 2.835565097397441vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #583C87;
+    top: 14%;
+    left: 84%;
+    animation-duration: 126s;
+    animation-delay: -60s;
+    transform-origin: 21vw 9vh;
+    box-shadow: 22vmin 0 3.3098587747196078vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #ff0000;
+    top: 11%;
+    left: 63%;
+    animation-duration: 137s;
+    animation-delay: -79s;
+    transform-origin: -19vw 19vh;
+    box-shadow: -22vmin 0 3.3902674492286264vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #ff0000;
+    top: 10%;
+    left: 25%;
+    animation-duration: 14s;
+    animation-delay: -105s;
+    transform-origin: -11vw 23vh;
+    box-shadow: -22vmin 0 3.1878907409798716vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #E45A84;
+    top: 64%;
+    left: 87%;
+    animation-duration: 121s;
+    animation-delay: -40s;
+    transform-origin: -11vw 22vh;
+    box-shadow: 22vmin 0 3.0378504854295594vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #E45A84;
+    top: 55%;
+    left: 40%;
+    animation-duration: 137s;
+    animation-delay: -43s;
+    transform-origin: -22vw -17vh;
+    box-shadow: -22vmin 0 3.559213267911131vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #583C87;
+    top: 73%;
+    left: 44%;
+    animation-duration: 55s;
+    animation-delay: -99s;
+    transform-origin: -9vw 14vh;
+    box-shadow: 22vmin 0 2.8549180715546125vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #583C87;
+    top: 65%;
+    left: 96%;
+    animation-duration: 142s;
+    animation-delay: -120s;
+    transform-origin: 22vw 3vh;
+    box-shadow: 22vmin 0 3.5047581955817897vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #583C87;
+    top: 90%;
+    left: 75%;
+    animation-duration: 122s;
+    animation-delay: -77s;
+    transform-origin: 23vw -3vh;
+    box-shadow: 22vmin 0 3.1997214448235765vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #583C87;
+    top: 92%;
+    left: 30%;
+    animation-duration: 26s;
+    animation-delay: -107s;
+    transform-origin: 18vw -6vh;
+    box-shadow: 22vmin 0 3.0878999344579805vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #E45A84;
+    top: 32%;
+    left: 29%;
+    animation-duration: 79s;
+    animation-delay: -139s;
+    transform-origin: 20vw 0vh;
+    box-shadow: -22vmin 0 3.4234026917426745vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #ff0000;
+    top: 68%;
+    left: 89%;
+    animation-duration: 76s;
+    animation-delay: -56s;
+    transform-origin: 6vw 8vh;
+    box-shadow: -22vmin 0 3.6858174638458827vmin currentColor;
+}
+.background span:nth-child(16) {
+    color: #E45A84;
+    top: 94%;
+    left: 91%;
+    animation-duration: 35s;
+    animation-delay: -47s;
+    transform-origin: -10vw 20vh;
+    box-shadow: 22vmin 0 3.1341813505003646vmin currentColor;
+}
+.background span:nth-child(17) {
+    color: #ff0000;
+    top: 18%;
+    left: 81%;
+    animation-duration: 8s;
+    animation-delay: -50s;
+    transform-origin: 15vw -1vh;
+    box-shadow: 22vmin 0 3.107200852640158vmin currentColor;
+}
+.background span:nth-child(18) {
+    color: #ff0000;
+    top: 51%;
+    left: 63%;
+    animation-duration: 82s;
+    animation-delay: -77s;
+    transform-origin: 18vw 2vh;
+    box-shadow: 22vmin 0 3.133132962965755vmin currentColor;
+}
+.background span:nth-child(19) {
+    color: #E45A84;
+    top: 23%;
+    left: 77%;
+    animation-duration: 43s;
+    animation-delay: -101s;
+    transform-origin: -19vw 21vh;
+    box-shadow: -22vmin 0 3.2130071568170435vmin currentColor;
+}
+.background span:nth-child(20) {
+    color: #E45A84;
+    top: 62%;
+    left: 3%;
+    animation-duration: 87s;
+    animation-delay: -113s;
+    transform-origin: -2vw 0vh;
+    box-shadow: -22vmin 0 3.652080646082973vmin currentColor;
+}
+.background span:nth-child(21) {
+    color: #E45A84;
+    top: 37%;
+    left: 98%;
+    animation-duration: 145s;
+    animation-delay: -111s;
+    transform-origin: 23vw 14vh;
+    box-shadow: -22vmin 0 2.8447426750156564vmin currentColor;
+}
+.background span:nth-child(22) {
+    color: #b22e42;
+    top: 78%;
+    left: 24%;
+    animation-duration: 110s;
+    animation-delay: -74s;
+    transform-origin: -15vw -22vh;
+    box-shadow: 22vmin 0 2.7688558364941063vmin currentColor;
+}
+.background span:nth-child(23) {
+    color: #b22e42;
+    top: 49%;
+    left: 71%;
+    animation-duration: 142s;
+    animation-delay: -57s;
+    transform-origin: -12vw -13vh;
+    box-shadow: -22vmin 0 3.3017584016410404vmin currentColor;
+}
+.background span:nth-child(24) {
+    color: #E45A84;
+    top: 75%;
+    left: 80%;
+    animation-duration: 76s;
+    animation-delay: -7s;
+    transform-origin: 1vw 1vh;
+    box-shadow: -22vmin 0 2.9304094505532694vmin currentColor;
+}
+.background span:nth-child(25) {
+    color: #b22e42;
+    top: 14%;
+    left: 8%;
+    animation-duration: 114s;
+    animation-delay: -13s;
+    transform-origin: -21vw 10vh;
+    box-shadow: 22vmin 0 3.2799505179698127vmin currentColor;
+}
+.background span:nth-child(26) {
+    color: #b22e42;
+    top: 97%;
+    left: 4%;
+    animation-duration: 35s;
+    animation-delay: -113s;
+    transform-origin: 2vw -15vh;
+    box-shadow: -22vmin 0 3.1001448487558854vmin currentColor;
+}
+.background span:nth-child(27) {
+    color: #b22e42;
+    top: 44%;
+    left: 59%;
+    animation-duration: 118s;
+    animation-delay: -92s;
+    transform-origin: 16vw 25vh;
+    box-shadow: 22vmin 0 3.620502105093301vmin currentColor;
+}
+.background span:nth-child(28) {
+    color: #583C87;
+    top: 1%;
+    left: 6%;
+    animation-duration: 28s;
+    animation-delay: -11s;
+    transform-origin: 13vw -17vh;
+    box-shadow: 22vmin 0 3.1825972748361573vmin currentColor;
+}
+
+    </style>
 </head>
 
 <body>
@@ -226,7 +519,37 @@
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
-
+<div class="background">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+</div>
 
     <!-- Topbar Start -->
 
@@ -280,7 +603,7 @@
                             </div>
                             <div class="ps-4">
                                 <h5>feature 1 </h5>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
+                                <span style="color: black;" >Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
                             </div>
                         </div>
                     </div>
@@ -293,7 +616,7 @@
                             </div>
                             <div class="ps-4">
                                 <h5>Feature 2</h5>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
+                                <span style="color: black;"  >Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
                             </div>
                         </div>
                     </div>
@@ -306,7 +629,7 @@
                             </div>
                             <div class="ps-4">
                                 <h5>Feature 3</h5>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
+                                <span style="color: black;"  >Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
                             </div>
                         </div>
                     </div>
@@ -324,10 +647,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
                         <img class="position-absolute w-100 h-100" src="img/about-1.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
+                        <img class="position-absolute top-0 start-0  pe-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" style="z-index: 7;">
                     <div class="h-100">
                         <h6 class="text-primary text-uppercase mb-2">About Us</h6>
                         <h1 class="display-6 mb-4">ABOUT NEW CO</h1>
@@ -355,10 +678,74 @@
     </div>
     <!-- About End -->
 
-    <div class="container">
-        <div class="page-heade">
-            <h1 id="timeline">ROADMAP</h1>
+
+    <!-- Courses Start -->
+
+    <!-- Courses End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" style="z-index: 7;" data-wow-delay="0.1s">
+                    <h6 class="text-primary text-uppercase mb-2">Why Choose Us!</h6>
+                    <h1 class="display-6 mb-4">Best NEWCOg Training Agency In Your City</h1>
+                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary me-3">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Fully Licensed</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary me-3">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Online Tracking</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary me-3">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Afordable Fee</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary me-3">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Best Trainers</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="img/about-1.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 ps-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px">
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <!-- Features End -->
+<br><br><br><br>  <br><br><br><br>
+    <div class="container wow fadeIn" data-wow-delay="0.4s"" style="z-index: 7;" >
+      <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.4s"  style="z-index: 7; position: absolute; margin-top: -130px;">ROADMAP</h1>
+     
+    
         <ul class="timeline">
             <li>
               <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
@@ -443,75 +830,11 @@
             </li>
         </ul>
     </div>
-    <!-- Courses Start -->
-
-    <!-- Courses End -->
-
-
-    <!-- Features Start -->
-    <div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-primary text-uppercase mb-2">Why Choose Us!</h6>
-                    <h1 class="display-6 mb-4">Best NEWCOg Training Agency In Your City</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-5 gx-4">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Fully Licensed</h5>
-                            </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Online Tracking</h5>
-                            </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Afordable Fee</h5>
-                            </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary me-3">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Best Trainers</h5>
-                            </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="img/about-1.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Features End -->
-
-
     <!-- Team Start -->
     <div class="container-xxl py-6">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase mb-2">Meet The Team</h6>
+            <div class="text-left mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h6 class="text-primary text-uppercase mb-2" style="position: absolute; margin-top: -100px; margin-right: 230px;">Meet The Team</h6>
                 <h1 class="display-6 mb-4"></h1>
             </div>
             <div class="row g-0 team-items">
